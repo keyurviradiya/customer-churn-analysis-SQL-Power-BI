@@ -5,9 +5,8 @@ This project analyzes customer churn using MySQL for data processing and Power B
 It aims to identify factors that influence customer churn and help the business improve retention strategies.
 
 # Tools Used
-- MySQL – Data cleaning, transformation, and aggregation queries
-- **Power BI* – Dashboard creation and insight visualization
-- **Python (optional)** – Used for initial data cleaning and combining CSV files
+- **MySQL** – Data cleaning, transformation, and aggregation queries
+- **Power BI** – Dashboard creation and insight visualization
 - **GitHub** – Version control and project documentation
 
 # 📁 Folder Structure
@@ -22,7 +21,8 @@ customer_churn_analysis/
 ├── mysql_scripts/
 │   ├── 01_create_tables.sql
 │   ├── 02_load_and_clean.sql
-│   └── query_log.txt
+│   └── 03_analysis_queries.sql
+│   └── 04_export_clean_table.sql
 │
 ├── powerbi/
 │   ├── customer_churn_dashboard.pbix
@@ -39,10 +39,9 @@ customer_churn_analysis/
 
 ## 📊 Power BI Visualizations
 - **Card Visuals** – Total Customers, Total Churned, Churn Rate
-- **Pie Chart** – Churn by Gender
-- **Bar Chart** – Churn by Contract Length
+- **Bar Chart** – Churn Rate by Gender
+- **Line Chart** – Churn by Contract Length
 - **Column Chart** – Average Spend by Churn
-- **Line Chart** – Tenure vs Churn Trend
 
 ## ⚙️ How to Use
 1. Clone this repository:
@@ -55,5 +54,5 @@ customer_churn_analysis/
 
 ## 🧩 Author
 **Viradiya Keyur Bharatbhai**  
-MBA in Finance | Aspiring Data Analyst | MySQL • Power BI • Python
+Aspiring Data Analyst | MySQL • Power BI • Python
 
